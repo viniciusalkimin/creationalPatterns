@@ -1,12 +1,14 @@
 package com.pluralsight.designpatterns.creational.builder;
 
 import lombok.AllArgsConstructor;
-import lombok.Data;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.RequiredArgsConstructor;
 
-@Data
-@NoArgsConstructor
+@Getter
 @AllArgsConstructor
+@NoArgsConstructor
+@RequiredArgsConstructor
 public class LaunchOrderBean {
 
     private String bread;
